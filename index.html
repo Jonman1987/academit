@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 2 Page 1</title>
+    <link rel=“stylesheet” type=“text/css” href=src/style.css />
+</head>
+<body>
+<form action="index2.html" method="GET">
+    <p>Put your name
+    <p><input type="text" name="user">
+    <p>What do you like:<br>
+    <p><input type="checkbox" name="hobby[]"
+              value="listen">listen
+    <p><input type="checkbox" name="hobby[]"
+              value="read">read
+    <p><input type="checkbox" name="hobby[]"
+              value="watch">watch
+    <p><input type="checkbox" name="hobby[]"
+              value="walk">walk
+    <p>About you
+    <p><textarea name="Text1" cols="40" rows="5"></textarea>
+    <p>Put your gender
+    <div>
+    <p><input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">male</label>
+    </div>
+    <div>
+    <p><input type="radio" id="female" name="gender" value="female">
+    <label for="female">female</label>
+    </div>
+    <p>Put your education
+    <div>
+    <select id="selectID">
+        <p><option value=”SC”>School</option>
+        <p><option value=”UN”>University</option>
+        <p><option value=”NO”>None</option>
+    </select>
+    </div>
+    <p>Put your pets
+    <div>
+        <select multiple id="selectID">
+            <p><option value=”cat”>Cat</option>
+            <p><option value=”dog”>Dog</option>
+            <p><option value=”fish”>Fish</option>
+            <p><option value=”Guinea_pig”>Guinea pig</option>
+            <p><option value=”parrot”>Parrot</option>
+        </select>
+    </div>
+    <p><input type="submit" value="submit">
+</form>
+</body>
+</html>
