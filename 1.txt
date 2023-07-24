@@ -1,4 +1,4 @@
-for (int i = NULL; i < count; i++)
+for (int i = 1; i < count; i++)
 {
-    printf("THIS IS NOT MY CODE");
+    printf("THIS IS yours CODE");
 }
