@@ -1,4 +1,0 @@
-for (int i = 1; i < count; i++)
-{
-    printf("THIS IS yours CODE");
-}
