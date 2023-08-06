@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="index2.html" method="GET">
+<form action="index2.html" method="POST">
     <p>Put your name
     <p><input type="text" name="user">
     <p>What do you like:<br>
-    <p><input type="checkbox" name="hobby[]"
-              value="listen">listen
-    <p><input type="checkbox" name="hobby[]"
-              value="read">read
-    <p><input type="checkbox" name="hobby[]"
-              value="watch">watch
-    <p><input type="checkbox" name="hobby[]"
-              value="walk">walk
+    <p><input type="checkbox" id="listen" name="hobby[]"
+              value="listen"><label for="listen">listen</label>
+    <p><input type="checkbox" id="read" name="hobby[]"
+              value="read"><label for="read">read</label>
+    <p><input type="checkbox" id="watch" name="hobby[]"
+              value="watch"><label for="watch">watch</label>
+    <p><input type="checkbox" id="walk" name="hobby[]"
+              value="walk"><label for="walk">walk</label>
     <p>About you
     <p><textarea name="Text1" cols="40" rows="5"></textarea>
     <p>Put your gender
@@ -31,20 +31,20 @@
     </div>
     <p>Put your education
     <div>
-    <select id="selectID">
-        <p><option value=”SC”>School</option>
-        <p><option value=”UN”>University</option>
-        <p><option value=”NO”>None</option>
+    <select id="education">
+        <p><option value=”SC” id="School">School</option>
+        <p><option value=”UN” id="University">University</option>
+        <p><option value=”NO” id="None">None</option>
     </select>
     </div>
     <p>Put your pets
     <div>
-        <select multiple id="selectID">
-            <p><option value=”cat”>Cat</option>
-            <p><option value=”dog”>Dog</option>
-            <p><option value=”fish”>Fish</option>
-            <p><option value=”Guinea_pig”>Guinea pig</option>
-            <p><option value=”parrot”>Parrot</option>
+        <select multiple id="pets">
+            <p><option value=”cat” id="cat">Cat</option>
+            <p><option value=”dog” id="dog">Dog</option>
+            <p><option value=”fish” id="fish">Fish</option>
+            <p><option value=”Guinea_pig” id="guinea_pig">Guinea pig</option>
+            <p><option value=”parrot” id="parrot">Parrot</option>
         </select>
     </div>
     <p><input type="submit" value="submit">
